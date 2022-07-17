@@ -1,0 +1,7 @@
+<ng-container *ngFor="let ingr of ingredientService.ingredientsArray; let index = index">
+
+  <span class="ingr" appClick >{{ingr}}</span>
+  <span class="ingr-coma" *ngIf="index+1 !== ingredientService.ingredientsArray.length">,</span>
+
+</ng-container>
+

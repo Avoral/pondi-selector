@@ -1,0 +1,33 @@
+:host {
+  .ingr:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.ingr {
+  font-family: "Open Sans";
+  padding: 0 5px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 12px;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+
+  &.clicked {
+    background: green;
+    border-radius: 10px;
+  }
+  &.clicked-red {
+    background: red;
+    border-radius: 10px;
+  }
+
+  &-coma {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    user-select: none;
+  }
+}
