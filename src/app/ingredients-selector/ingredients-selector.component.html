@@ -1,3 +1,4 @@
+<div [ngStyle]="{'font-size.px': ingredientService.fontSize}">
 <ng-container *ngFor="let ingr of ingredientService.ingredientsArray; let index = index">
 
   <span class="ingr" appClick >{{ingr}}</span>
@@ -5,3 +6,4 @@
 
 </ng-container>
 
+</div>

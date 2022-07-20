@@ -10,6 +10,8 @@ import {ActivatedRoute, Router} from '@angular/router';
 export class IngredientsComponent implements OnInit {
   @ViewChild('ingredientTextArea')
   public ingredientTextArea: ElementRef;
+  @ViewChild('fontsize')
+  public fontsize: ElementRef;
 
   constructor(public ingredientService: IngredientService, public route: Router) { }
 
@@ -18,6 +20,7 @@ export class IngredientsComponent implements OnInit {
 
   public save(): void {
     this.ingredientService.saveIngredients(this.ingredientTextArea.nativeElement.value);
+    this.ingredientService.saveFontSize(this.fontsize.nativeElement.value);
     this.route.navigate(['/selector']);
   }
 

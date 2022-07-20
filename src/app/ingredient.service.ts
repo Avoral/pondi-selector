@@ -6,6 +6,7 @@ import {Observable, Subject} from 'rxjs';
 })
 export class IngredientService {
   public ingredients: string;
+  public fontSize: string;
   public ingredientsArray: string[] = [];
 
 
@@ -13,5 +14,8 @@ export class IngredientService {
 
   public saveIngredients(ingredients: string): void {
     this.ingredientsArray = ingredients.split(',');
+  }
+  public saveFontSize(fontSize: string): void {
+    this.fontSize = fontSize;
   }
 }

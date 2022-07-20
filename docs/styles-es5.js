@@ -18,7 +18,7 @@
 
     exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  font-family: \"Open Sans\";\n}", "", {
       "version": 3,
-      "sources": ["C:\\projekty\\pondi-selector/src\\styles.scss", "styles.scss"],
+      "sources": ["c:\\projekty\\pondi-selector/src\\styles.scss", "styles.scss"],
       "names": [],
       "mappings": "AAAA,8EAAA;AACA;EACE,wBAAA;ACCF",
       "file": "styles.scss",
@@ -464,7 +464,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\projekty\pondi-selector\src\styles.scss */
+    /*! c:\projekty\pondi-selector\src\styles.scss */
     "./src/styles.scss");
     /***/
   }
